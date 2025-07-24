@@ -23,3 +23,12 @@ main {
 .item:hover {
   background-color: skyblue;
 }
+
+.parrafoAmplio{
+transition: font-size 400ms ease-out;
+}
+
+.parrafoAmplio:hover{
+  font-size: large;
+  cursor: pointer;
+}

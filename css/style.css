@@ -146,34 +146,42 @@ main {
   background-color: green;
   border-radius: 50%;
   position: relative;
-  animation: animacionCompleja 4s ease 5;
+  animation: animacionCompleja 5s ease 5;
+  border-radius: 200ms linear;
+}
 
+.circulo:hover{
+  border-radius: 0%;
 }
 
 @keyframes animacionCompleja {
   0% {
     top: 0px;
-    left: 0px
+    left: 0px;
+    background-color: hotpink;
   }
 
   25%{
     top: 0px;
     left: 100px;
+    background-color: yellow;
   }
 
   50%{
     top: 100px;
     left: 100px;
+    background-color: orange;
   }
 
   75%{
     top: 100px;
     left: 0px;
+    background-color: purple;
   }
 
   100%{
     top: 0px;
     left: 0px;  
+    background-color: green;
   }
 }
-
